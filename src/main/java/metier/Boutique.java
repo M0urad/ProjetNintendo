@@ -1,4 +1,4 @@
-package feature;
+package metier;
 
 import java.util.List;
 

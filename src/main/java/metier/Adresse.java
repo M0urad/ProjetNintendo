@@ -1,4 +1,4 @@
-package feature;
+package metier;
 
 public class Adresse {
 
