@@ -6,15 +6,14 @@ public class Jeu {
 
 	private String titre;
 	private List<Console> consoles;
-	
-	
-	
-	public Jeu(String titre, List<Console> consoles) {
+	private Boutique boutique;
+
+
+	public Jeu(String titre, List<Console> consoles,Boutique boutique) {
 		this.titre = titre;
 		this.consoles = consoles;
+		this.boutique = boutique;
 	}
-
-
 
 	public String getTitre() {
 		return titre;
@@ -44,6 +43,6 @@ public class Jeu {
 	public String toString() {
 		return "Jeu [titre=" + titre + ", consoles=" + consoles + "]";
 	}
-	
-	
+
+
 }
