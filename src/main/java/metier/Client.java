@@ -6,12 +6,12 @@ public class Client {
 
 	public String nom;
 	public String prenom;
-	public List<Jeu> jeu;
-	public Client(String nom, String prenom, List<Jeu> jeu) {
+	public List<Achat> jeux;
+	public Client(String nom, String prenom, List<Achat> jeux) {
 		super();
 		this.nom = nom;
 		this.prenom = prenom;
-		this.jeu = jeu;
+		this.jeux = jeux;
 	}
 	public String getNom() {
 		return nom;
@@ -25,11 +25,11 @@ public class Client {
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
-	public List<Jeu> getJeu() {
-		return jeu;
+	public List<Achat> getAchat() {
+		return jeux;
 	}
-	public void setJeu(List<Jeu> jeu) {
-		this.jeu = jeu;
+	public void setAchat(List<Achat> jeux) {
+		this.jeux = jeux;
 	}
 	@Override
 	public String toString() {
