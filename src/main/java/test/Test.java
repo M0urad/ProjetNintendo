@@ -17,7 +17,7 @@ public class Test {
 
 		
 		List<Console> consoles = new ArrayList<Console>();
-		Console SNES = new Console("Super Famicom");
+		Console SNES = new Console("Super Famicom",50000,LocalDate.parse("1997-05-10"));
 		List<Boutique> boutiques = new ArrayList<Boutique>();
 		List<Jeu> jeux=new ArrayList<Jeu>();
 
